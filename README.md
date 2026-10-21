@@ -1,4 +1,4 @@
-# Benchmarking Offline Text-to-Speech (TTS) Models on Raspberry Pi 5
+# Benchmarking Offline German Text-to-Speech (TTS) Models on Raspberry Pi 5
 
 This repository contains the benchmarking framework, evaluation pipelines, measurement datasets, and prototype Terminal User Interface (TUI) developed for the Master's thesis:
 
@@ -8,7 +8,7 @@ This repository contains the benchmarking framework, evaluation pipelines, measu
 
 ## Overview
 
-Running state-of-the-art neural Text-to-Speech (TTS) models locally on edge hardware eliminates cloud dependency and ensures strict data privacy. This project systematically evaluates **seven open-source TTS models** across **fourteen configurations** on a Raspberry Pi 5, analyzing the trade-offs between latency (Real-Time Factor, RTF), audio throughput, thermal stability, acoustic speech quality (NISQA), speech naturalness (UTMOSv2), and phonetic intelligibility (WER/CER).
+Running state-of-the-art neural Text-to-Speech (TTS) models locally on edge hardware eliminates cloud dependency and ensures strict data privacy. This project systematically evaluates **seven open-source German TTS models** across **fourteen configurations** on a Raspberry Pi 5, analyzing the trade-offs between latency (Real-Time Factor, RTF), audio throughput, thermal stability, acoustic speech quality (NISQA), speech naturalness (UTMOSv2), and phonetic intelligibility (WER/CER).
 
 ### Evaluated TTS Candidates
 1. **Piper TTS** (ONNX Runtime: `low`, `medium`, `emotional-medium`, `high`)
