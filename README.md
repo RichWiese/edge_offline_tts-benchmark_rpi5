@@ -87,7 +87,7 @@ The evaluation framework analyzes the multi-dimensional trade-offs between:
 │       ├── merge_benchmark_results.py
 │       ├── merge_wer_results.py
 │       └── merge_mos_results.py
-├── tui/                              # Standalone Go-based Terminal User Interface (Bubble Tea PoC)
+├── tui_concept/                              # Standalone Go-based Terminal User Interface (Bubble Tea PoC)
 │   ├── go.mod
 │   ├── go.sum
 │   └── main.go
@@ -247,4 +247,4 @@ For detailed schema definitions and hardware/software specifications, refer to t
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
